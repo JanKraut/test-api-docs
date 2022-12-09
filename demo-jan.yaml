@@ -95,11 +95,6 @@ spec:
                 schema:
                   type: string
                 example: type_any_name
-              - name: testing
-                in: query
-                schema:
-                  type: string
-                example: type_any_name
             responses:
               '200':
                 description: Auto generated using Swagger Inspector
@@ -108,11 +103,11 @@ spec:
                     schema:
                       type: string
                     examples: {}
-      - /projects
+      - /project:
           get:
             description: test harbor get project
             parameters:
-            - name: testing
+              - name: name
                 in: query
                 schema:
                   type: string
