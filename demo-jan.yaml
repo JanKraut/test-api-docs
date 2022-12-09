@@ -103,12 +103,3 @@ spec:
                   schema:
                     type: string
                   examples: {}
-      /projects:
-        get:
-          description: teeest
-          parameters:
-            - name: name
-              in: query
-              schema:
-                type: string
-              example: type_any_name
