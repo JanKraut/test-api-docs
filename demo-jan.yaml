@@ -86,34 +86,34 @@ spec:
     servers:
       - url: https://harbor.dieunkrauts.de/devcenter-api-2.0
     paths:
-      /:
-        get:
-          description: Auto generated using Swagger Inspector
-          parameters:
-            - name: name
-              in: query
-              schema:
-                type: string
-              example: type_any_name
-            - name: testing
-              in: query
-              schema:
-                type: string
-              example: type_any_name
-          responses:
-            '200':
-              description: Auto generated using Swagger Inspector
-              content:
-                application/json; charset=utf-8:
-                  schema:
-                    type: string
-                  examples: {}
-      /projects:
-         get:
+      - /:
+          get:
+            description: Auto generated using Swagger Inspector
+            parameters:
+              - name: name
+                in: query
+                schema:
+                  type: string
+                example: type_any_name
+              - name: testing
+                in: query
+                schema:
+                  type: string
+                example: type_any_name
+            responses:
+              '200':
+                description: Auto generated using Swagger Inspector
+                content:
+                  application/json; charset=utf-8:
+                    schema:
+                      type: string
+                    examples: {}
+      - /projects
+          get:
             description: test harbor get project
             parameters:
-            - name: name
-              in: query
-              schema:
-                type: string
-              example: type_any_name
+            - name: testing
+                in: query
+                schema:
+                  type: string
+                example: type_any_name
