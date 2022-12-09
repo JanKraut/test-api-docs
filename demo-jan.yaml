@@ -27,9 +27,7 @@ spec:
   lifecycle: alpha
   owner: demo-team
   system: demo-app-jan
-
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
