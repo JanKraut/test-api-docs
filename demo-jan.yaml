@@ -103,7 +103,7 @@ spec:
                     schema:
                       type: string
                     examples: {}
-      - /project:
+      - /projects:
           get:
             description: test harbor get project
             parameters:
